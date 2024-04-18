@@ -14,23 +14,47 @@
       <button id="modo-claro">Modo Claro</button>
       <button id="modo-oscuro">Modo Oscuro</button>
     </nav>
+    <nav>
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#equipo">Equipo</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
   </header>
   <main>
-    <h2>Registro de Usuarios</h2>
-    <form>
-      <label for="nombre">Nombre:</label>
-      <input type="text" id="nombre" name="nombre" required>
-      
-      <label for="apellido">Apellido:</label>
-      <input type="text" id="apellido" name="apellido" required>
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      
-      <label for="telefono">Teléfono:</label>
-      <input type="tel" id="telefono" name="telefono">
-      
-      <button type="submit">Registrarse</button>
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Ofrecemos una amplia gama de servicios veterinarios para cuidar de tu mascota.</p>
+        <ul>
+          <li>Consultas veterinarias</li>
+          <li>Vacunación</li>
+          <li>Cirugía</li>
+          <li>Odontología</li>
+          <li>... y mucho más</li>
+        </ul>
+    </section>
+    <section id="equipo">
+        <h2>Equipo</h2>
+        <p>Nuestro equipo está formado por veterinarios altamente capacitados y amantes de los animales.</p>
+        <img src="equipo.jpg" alt="Equipo veterinario">
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Estamos ubicados en la calle Corrientes 123, Ciudad de Bs As. Puedes contactarnos al teléfono 11 2345-6789 o enviarnos un mensaje a nuestro correo electrónico info@veterinariabsas.com</p>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+          
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
     </form>
   </main>
   <footer>
